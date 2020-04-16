@@ -1,13 +1,13 @@
 *::-webkit-scrollbar { width: 0 !important }
 * { overflow: -moz-scrollbars-none; }
 
-@font-face {
+/* @font-face {
     font-family: Lobster;
     src: url(/fonts/Lobster-Regular.ttf);
-}
+} */
 
 h3{
-    font-family: Lobster;
+    font-family: "Lobster";
     margin: 0;
     padding: 20px;
     /* width: 100%; */
