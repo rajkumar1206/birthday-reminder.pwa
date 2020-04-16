@@ -8,6 +8,7 @@ const assets = [
     '/js/connect.js',
     '/js/main.js',
     '/js/materialize.min.js',
+    'https://fonts.googleapis.com/css?family=Lobster&display=swap',
     '/js/remider.js',
     '/js/userProfile.js',
     '/images/img-192x192.png',
