@@ -44,14 +44,14 @@ editForm.addEventListener('submit', (e) => {
     userProfileList[i] = data;
     localStorage.setItem('birthdayStorageList', JSON.stringify(userProfileList));
     reRenderEdit();
-    window.location.href = '/edit.html?id='+userId;
+    window.location.href = './edit.html?id='+userId;
 });
 
 deleteButton.addEventListener('click', (e) => {
     e.preventDefault();    
     userProfileList.splice(i, 1);
     localStorage.setItem('birthdayStorageList', JSON.stringify(userProfileList));
-    window.location.href = '/';
+    window.location.href = './index.html';
 })
 
 backButton.addEventListener('click', (e) => {
