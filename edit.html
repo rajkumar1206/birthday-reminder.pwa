@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="/css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="/css/userProfile.css">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="pink">
+    <link rel="apple-touch-icon" href="/images/img-512x512.png">
+    <meta name="apple-mobile-web-app-status-bar" content="pink">
+    <title>Edit</title>
+</head>
+<body>
+    <h2 class="pink white-text center">Edit</h2>
+    <div class="container booting">
+        <h5 class="pink-text name">Name: </h5><br>
+        <h5 class="pink-text dob">Date of Birth: </h5><br>
+        <h5 class="pink-text desc">Description: </h5><br>
+
+        <button class="btn edit pink sidenav-trigger" data-target="slide-out">Edit<i class="material-icons right">edit</i></button>
+        <button class="btn delete pink">Delete<i class="material-icons right">delete</i></button>
+        <button class="btn back pink">Back</button>
+
+        <ul id="slide-out" class="sidenav">
+            <div class="container center">
+                <h3 class="red-text">Edit</h3>
+                <form>
+                    <input type="text" class="validate ename center" value="">
+                    <input type="text" class="datepicker edob center" placeholder="Enter the date">
+                    <input type="text" class="validate edes center" value="">
+                    <button type="submit" class="btn pink">Change</button>
+                </form>
+            </div>
+        </ul>
+    </div>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="/js/connect.js"></script>
+    <script src="/js/userProfile.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems, {});
+        });
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.datepicker');
+            var instances = M.Datepicker.init(elems, {});
+        });
+    </script>
+</body>
+</html>

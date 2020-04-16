@@ -1,0 +1,21 @@
+{
+    "name":"Birthday Reminder",
+    "short_name": "Birthdays",
+    "start_url": "/index.html",
+    "display":"standalone",
+    "background_color": "pink",
+    "theme_color":"orange",
+    "orientation":"portrait-primary",
+    "icons":[
+        {
+            "src":"/images/img-192x192.png",
+            "type":"image/png",
+            "sizes":"192x192"
+        },
+        {
+            "src":"/images/img-512x512.png",
+            "type":"image/png",
+            "sizes":"512x512"
+        }
+    ]
+}

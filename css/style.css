@@ -1,0 +1,96 @@
+*::-webkit-scrollbar { width: 0 !important }
+* { overflow: -moz-scrollbars-none; }
+
+@font-face {
+    font-family: Lobster;
+    src: url(/fonts/Lobster-Regular.ttf);
+}
+
+h3{
+    font-family: Lobster;
+    margin: 0;
+    padding: 20px;
+    /* width: 100%; */
+    color: white;
+    font-weight: lighter;
+}
+
+.card-panel{
+    padding: 5px;
+}
+
+.valign-wrapper{
+    margin: 0;
+}
+
+.row .col{
+    padding: 0;
+}
+
+.p{
+    margin: 0;
+}
+
+.btn-floating{
+    position: fixed !important;
+    transform: translate(-100%, -100%);
+    bottom: -15px;
+    right: -15px;
+}
+
+.fix2{
+    vertical-align: middle !important;
+}
+
+.fix{
+    display: inline-block;
+    vertical-align: middle !important;
+}
+
+i {
+    top: 18px !important;
+}
+
+.title{
+    font-size: 18px !important;
+    font-weight: bold;
+}
+
+.carousel{
+    height: -webkit-fill-available;
+}
+
+#test-swipe-1{
+    margin-top: 10px;
+}
+
+.booting {
+    margin-top: 20px;
+}
+
+
+.container h3{
+    display: inline-block;
+    font-size: 20px;
+    text-align: left;
+    padding: 5px;
+}
+
+.carousel .carousel-slider {
+    height: 100vh !important;
+}
+
+.sidenav{
+    width: 100% !important;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+#tabs-swipe-demo{
+    position: sticky;
+    top: 80px;
+    z-index: 1;
+}

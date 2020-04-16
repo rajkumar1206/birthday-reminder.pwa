@@ -1,0 +1,13 @@
+h2{
+    margin: 0;
+    padding: 20px;
+}
+
+h5{
+    display: inline-block;
+    margin: 7px;
+}
+
+.booting > button{
+    margin-top: 20px;
+}
